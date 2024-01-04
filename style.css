@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+    align-items: center;
+    background: #2a2e51;
+    height: 100vh;
+    width: 100%;
+}
+
+.heading {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 22px;
+    width: fit-content;
+}
+
+.first {
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+}
+
+#button:active {
+    background-color: green;
+    width: 130px;
+    height: 40px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#button {
+    background-color: #403571;
+    border-radius: 10px;
+    height: 46px;
+    width: 146px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.40799999237060547px;
+}
+
+#city {
+    color: white;
+    flex-grow: 1;
+    border: none;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+}
+
+.searchbox {
+    border: 1px solid #403571;
+    width: 446px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px #00000040 inset;
+    gap: 20px;
+}
+
+.searchbox:hover {
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.searchbox img {
+
+    height: 20px;
+    margin-left: 10px;
+}
+
+.main .container {
+    width: 85%;
+    overflow: scroll;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.container .card {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 50px;
+    background-image: url("img/Rectangle 1.png");
+    background-size: 100% 100%;
+}
+
+.temp {
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.37400001287460327px;
+    text-align: left;
+
+}
+
+.white {
+    color: white;
+}
+
+.container .card .one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.one {
+    height: 70%;
+    margin-top: 40px;
+}
+
+.o {
+    height: 70%;
+
+    margin-top: 40px;
+}
+
+.one2 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.one1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mid {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.pi {
+    height: 85%;
+    margin-top: 10px;
+}
+
+.pi .img1 {
+    width: 100px;
+}
